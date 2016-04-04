@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.sfgov.tests.SFgovTest">
+      <class name="com.sfgov.tests.AdultProbationTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="residentsPageTest"/>
+          <include name="brokenLinkTest1"/>
           <include name="setUp"/>
+          <include name="residentsPageTest"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.sfgov.tests.SFgovTest -->
+      </class> <!-- com.sfgov.tests.AdultProbationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -5106,3 +5106,94 @@ Transportation Services clicked
 2016-04-02 01:07:16,961 [main] INFO com.sfgov.common.Common - HELP clicked
 2016-04-02 01:07:48,078 [main] INFO com.sfgov.common.Common - back to SFGOV
 2016-04-02 01:07:48,308 [main] INFO com.sfgov.common.Common - close Brower
+2016-04-02 17:18:21,701 [main] INFO com.sfgov.common.Common - open Brower
+2016-04-02 17:18:24,277 [main] INFO com.sfgov.common.Common - openUrl: http://sfgov.org/adultprobation/
+2016-04-02 17:18:24,414 [main] INFO com.sfgov.common.Common - close Brower
+2016-04-02 17:20:14,840 [main] INFO com.sfgov.common.Common - open Brower
+2016-04-02 17:20:17,267 [main] INFO com.sfgov.common.Common - openUrl: http://sfgov.org/adultprobation/
+2016-04-02 17:20:17,401 [main] INFO com.sfgov.common.Common - close Brower
+2016-04-02 17:21:14,991 [main] INFO com.sfgov.common.Common - open Brower
+2016-04-02 17:21:17,282 [main] INFO com.sfgov.common.Common - openUrl: http://sfgov.org/adultprobation/
+2016-04-02 17:21:17,418 [main] INFO com.sfgov.common.Common - close Brower
+2016-04-02 17:22:00,650 [main] INFO com.sfgov.common.Common - open Brower
+2016-04-02 17:22:46,511 [main] INFO com.sfgov.common.Common - open Brower
+2016-04-02 17:23:22,617 [main] INFO com.sfgov.common.Common - open Brower
+2016-04-02 17:23:35,714 [main] INFO com.sfgov.common.Common - open Brower
+2016-04-02 17:23:35,742 [main] INFO com.sfgov.common.Common - close Brower
+2016-04-02 17:24:07,339 [main] INFO com.sfgov.common.Common - open Brower
+2016-04-02 17:24:11,497 [main] INFO com.sfgov.common.Common - openUrl: http://sfgov.org/adultprobation/
+2016-04-02 17:24:11,531 [main] INFO com.sfgov.common.Common - close Brower
+2016-04-02 17:24:46,898 [main] INFO com.sfgov.common.Common - open Brower
+2016-04-02 17:24:49,794 [main] INFO com.sfgov.common.Common - openUrl: http://sfgov.org/adultprobation/
+2016-04-02 17:24:49,961 [main] INFO com.sfgov.common.Common - close Brower
+2016-04-02 17:25:40,506 [main] INFO com.sfgov.common.Common - open Brower
+2016-04-02 17:25:43,917 [main] INFO com.sfgov.common.Common - openUrl: http://www.sfgov.org/
+2016-04-02 17:25:43,985 [main] INFO com.sfgov.pagefactory.sfgov.HomePageFactory - SFGOV page found, title verified.
+2016-04-02 17:25:44,060 [main] INFO com.sfgov.common.Common - trying to click 
+2016-04-02 17:25:45,175 [main] INFO com.sfgov.common.Common -  clicked
+2016-04-02 17:25:45,263 [main] INFO com.sfgov.common.Common - checking broken links for: http://www.sfgov.org/
+2016-04-02 17:25:45,584 [main] INFO com.sfgov.common.Common - 0: workes fine -----http://www.sfgov.org/#main
+2016-04-02 17:25:46,201 [main] INFO com.sfgov.common.Common - 1: workes fine -----http://sfgov.org/sfhome/accessibility-services
+2016-04-02 17:25:46,489 [main] INFO com.sfgov.common.Common - 2: workes fine -----http://sfgov.org/
+2016-04-02 17:25:46,739 [main] INFO com.sfgov.common.Common - 3: workes fine -----http://www.sfgov.org/#
+2016-04-02 17:25:46,973 [main] INFO com.sfgov.common.Common - 4: workes fine -----http://www.sfgov.org/
+2016-04-02 17:25:47,248 [main] INFO com.sfgov.common.Common - 5: workes fine -----http://www.sfgov.org/residents
+2016-04-02 17:25:47,959 [main] INFO com.sfgov.common.Common - 6: workes fine -----http://www.sfgov.org/business
+2016-04-02 17:26:12,375 [main] INFO com.sfgov.common.Common - open Brower
+2016-04-02 17:26:15,097 [main] INFO com.sfgov.common.Common - openUrl: http://sfgov.org/adultprobation/
+2016-04-02 17:26:15,257 [main] INFO com.sfgov.common.Common - close Brower
+2016-04-02 17:28:44,145 [main] INFO com.sfgov.common.Common - open Brower
+2016-04-02 17:28:47,274 [main] INFO com.sfgov.common.Common - openUrl: http://sfgov.org/adultprobation/
+2016-04-02 17:28:47,329 [main] INFO com.sfgov.common.Common - close Brower
+2016-04-02 17:30:28,729 [main] INFO com.sfgov.common.Common - open Brower
+2016-04-02 17:30:33,341 [main] INFO com.sfgov.common.Common - openUrl: http://sfgov.org/adultprobation/
+2016-04-02 17:30:33,401 [main] INFO com.sfgov.common.Common - close Brower
+2016-04-02 17:31:38,384 [main] INFO com.sfgov.common.Common - open Brower
+2016-04-02 17:31:41,256 [main] INFO com.sfgov.common.Common - openUrl: http://sfgov.org/adultprobation/
+2016-04-02 17:31:41,330 [main] INFO com.sfgov.common.Common - close Brower
+2016-04-02 17:32:49,485 [main] INFO com.sfgov.common.Common - open Brower
+2016-04-02 17:32:52,047 [main] INFO com.sfgov.common.Common - openUrl: http://sfgov.org/adultprobation/
+2016-04-02 17:32:52,104 [main] INFO com.sfgov.common.Common - close Brower
+2016-04-02 17:35:07,765 [main] INFO com.sfgov.common.Common - open Brower
+2016-04-02 17:35:10,809 [main] INFO com.sfgov.common.Common - openUrl: http://sfgov.org/adultprobation/
+2016-04-02 17:35:10,854 [main] INFO com.sfgov.common.Common - close Brower
+2016-04-02 17:36:01,080 [main] INFO com.sfgov.common.Common - open Brower
+2016-04-02 17:36:03,157 [main] INFO com.sfgov.common.Common - openUrl: http://sfgov.org/adultprobation/
+2016-04-02 17:36:03,278 [main] INFO com.sfgov.common.Common - close Brower
+2016-04-02 17:37:31,456 [main] INFO com.sfgov.common.Common - open Brower
+2016-04-02 17:37:34,821 [main] INFO com.sfgov.common.Common - openUrl: http://www.sfgov.org/
+2016-04-02 17:37:34,896 [main] INFO com.sfgov.pagefactory.sfgov.HomePageFactory - SFGOV page found, title verified.
+2016-04-02 17:37:35,102 [main] INFO com.sfgov.common.Common - trying to click 
+2016-04-02 17:37:36,282 [main] INFO com.sfgov.common.Common -  clicked
+2016-04-02 17:37:36,399 [main] INFO com.sfgov.common.Common - checking broken links for: http://www.sfgov.org/
+2016-04-02 17:37:36,717 [main] INFO com.sfgov.common.Common - 0: workes fine -----http://www.sfgov.org/#main
+2016-04-02 17:38:08,019 [main] INFO com.sfgov.common.Common - open Brower
+2016-04-02 17:38:10,494 [main] INFO com.sfgov.common.Common - openUrl: http://sfgov.org/adultprobation/
+2016-04-02 17:38:10,836 [main] INFO com.sfgov.common.Common - close Brower
+2016-04-02 17:39:29,487 [main] INFO com.sfgov.common.Common - open Brower
+2016-04-02 17:39:32,297 [main] INFO com.sfgov.common.Common - openUrl: http://sfgov.org/adultprobation/
+2016-04-02 17:39:32,404 [main] INFO com.sfgov.common.Common - trying to click ABOUT
+2016-04-02 17:39:33,452 [main] INFO com.sfgov.common.Common - ABOUT clicked
+2016-04-02 17:39:33,517 [main] INFO com.sfgov.common.Common - checking broken links for: http://sfgov.org/adultprobation/about-us
+2016-04-02 17:39:34,166 [main] INFO com.sfgov.common.Common - 0: workes fine -----http://sfgov.org/adultprobation/about-us#main-content
+2016-04-02 17:39:34,712 [main] ERROR com.sfgov.common.Common - 1: 404 found -----http://sfgov.org/site-guide
+2016-04-02 17:39:34,958 [main] ERROR com.sfgov.common.Common - 2: 404 found -----http://sfgov.org/change-text-size
+2016-04-02 17:39:35,206 [main] ERROR com.sfgov.common.Common - 3: 404 found -----http://sfgov.org/download-viewers
+2016-04-02 17:39:35,959 [main] INFO com.sfgov.common.Common - 4: workes fine -----http://sfgov.org/listen-now-help
+2016-04-02 17:39:36,751 [main] INFO com.sfgov.common.Common - 5: workes fine -----http://prod.sfgov.org.710elwb01.blackmesh.com/
+2016-04-02 17:39:36,984 [main] INFO com.sfgov.common.Common - 6: workes fine -----http://prod.sfgov.org.710elwb01.blackmesh.com/
+2016-04-02 17:39:37,220 [main] INFO com.sfgov.common.Common - 7: workes fine -----http://prod.sfgov.org.710elwb01.blackmesh.com/
+2016-04-02 17:39:37,447 [main] INFO com.sfgov.common.Common - 8: workes fine -----http://prod.sfgov.org.710elwb01.blackmesh.com/
+2016-04-02 17:39:37,675 [main] INFO com.sfgov.common.Common - 9: workes fine -----http://prod.sfgov.org.710elwb01.blackmesh.com/
+2016-04-02 17:39:37,904 [main] INFO com.sfgov.common.Common - 10: workes fine -----http://prod.sfgov.org.710elwb01.blackmesh.com/
+2016-04-02 17:39:38,133 [main] INFO com.sfgov.common.Common - 11: workes fine -----http://prod.sfgov.org.710elwb01.blackmesh.com/
+2016-04-02 17:39:38,370 [main] INFO com.sfgov.common.Common - 12: workes fine -----http://prod.sfgov.org.710elwb01.blackmesh.com/
+2016-04-02 17:39:38,599 [main] INFO com.sfgov.common.Common - 13: workes fine -----http://prod.sfgov.org.710elwb01.blackmesh.com/
+2016-04-02 17:39:38,881 [main] INFO com.sfgov.common.Common - 14: workes fine -----http://www.sfgov.org/
+2016-04-02 17:39:39,289 [main] INFO com.sfgov.common.Common - 15: workes fine -----http://www.sfmayor.org/
+2016-04-02 17:39:39,881 [main] INFO com.sfgov.common.Common - 16: workes fine -----http://www.sfbos.org/
+2016-04-02 17:39:40,915 [main] INFO com.sfgov.common.Common - 17: workes fine -----http://sfgov.org/agency
+2016-04-02 17:39:41,163 [main] INFO com.sfgov.common.Common - 18: workes fine -----http://sfgov.org/residents
+2016-04-02 17:39:41,718 [main] INFO com.sfgov.common.Common - 19: workes fine -----http://sfgov.org/business
+2016-04-02 17:39:42,344 [main] INFO com.sfgov.common.Common - 20: workes fine -----http://sfgov.org/visitors
+2016-04-02 17:39:42,602 [main] INFO com.sfgov.common.Common - 21: workes fine -----http://sfgov.org/help

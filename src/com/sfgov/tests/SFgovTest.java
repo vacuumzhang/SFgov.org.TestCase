@@ -22,9 +22,9 @@ public class SFgovTest {
 	private String sURL = "http://www.sfgov.org/";
 	
 	@BeforeSuite
-	public void setUp(){
+	public void setUp() throws MalformedURLException{
 		cm = new Common(driver);
-		driver = cm.openBrower();
+		driver = cm.openBrower("Chrome");
 		cm.openUrl(sURL);
 	}
 	

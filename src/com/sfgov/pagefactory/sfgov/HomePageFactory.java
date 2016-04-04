@@ -48,10 +48,5 @@ public class HomePageFactory {
 	public List<WebElement> test(WebElement target){
 		return target.findElements(By.xpath(".//*[@class='panel']"));
 	}
-
-	
-	
-	
-	
 	
 }
