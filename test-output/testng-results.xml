@@ -1,227 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="8" failed="0" total="8" passed="0">
+<testng-results skipped="2" failed="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="327" started-at="2016-05-10T02:00:53Z" finished-at="2016-05-10T02:00:53Z">
+  <suite name="Default suite" duration-ms="10" started-at="2016-05-10T02:18:39Z" finished-at="2016-05-10T02:18:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="327" started-at="2016-05-10T02:00:53Z" finished-at="2016-05-10T02:00:53Z">
-      <class name="com.sfgov.tests.LoginTests">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="setUp" is-config="true" duration-ms="0" started-at="2016-05-09T19:00:53Z" finished-at="2016-05-09T19:00:53Z">
-          <exception class="java.lang.NullPointerException">
+    <test name="Default test" duration-ms="10" started-at="2016-05-10T02:18:39Z" finished-at="2016-05-10T02:18:39Z">
+      <class name="com.sfgov.tests.SFgovTest">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.sfgov.tests.SFgovTest@32e6e9c3]" name="setUp" is-config="true" duration-ms="0" started-at="2016-05-09T19:18:39Z" finished-at="2016-05-09T19:18:39Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/openqa/selenium/WebDriver]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.sfgov.common.Common.openBrowser(Common.java:57)
-	at com.sfgov.tests.LoginTests.setUp(LoginTests.java:39)
+              <![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/WebDriver
+	at com.sfgov.tests.SFgovTest.setUp(SFgovTest.java:26)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.WebDriver
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.NoClassDefFoundError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="login01()[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="login01" duration-ms="0" started-at="2016-05-09T19:00:53Z" description="right password and username" finished-at="2016-05-09T19:00:53Z">
+        <test-method status="SKIP" signature="HomePageTest()[pri:0, instance:com.sfgov.tests.SFgovTest@32e6e9c3]" name="HomePageTest" duration-ms="0" started-at="2016-05-09T19:18:39Z" finished-at="2016-05-09T19:18:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login01 -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-05-09T19:00:53Z" finished-at="2016-05-09T19:00:53Z">
+        </test-method> <!-- HomePageTest -->
+        <test-method status="SKIP" signature="brokenLinkTest1()[pri:0, instance:com.sfgov.tests.SFgovTest@32e6e9c3]" name="brokenLinkTest1" duration-ms="0" started-at="2016-05-09T19:18:39Z" finished-at="2016-05-09T19:18:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="setUp" is-config="true" duration-ms="0" started-at="2016-05-09T19:00:53Z" finished-at="2016-05-09T19:00:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="login04(java.lang.String, java.lang.String)[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="login04" duration-ms="0" started-at="2016-05-09T19:00:53Z" data-provider="getData" finished-at="2016-05-09T19:00:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[a]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login04 -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-05-09T19:00:53Z" finished-at="2016-05-09T19:00:53Z">
+        </test-method> <!-- brokenLinkTest1 -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.sfgov.tests.SFgovTest@32e6e9c3]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-05-09T19:18:39Z" finished-at="2016-05-09T19:18:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="setUp" is-config="true" duration-ms="0" started-at="2016-05-09T19:00:53Z" finished-at="2016-05-09T19:00:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="login04(java.lang.String, java.lang.String)[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="login04" duration-ms="1" started-at="2016-05-09T19:00:53Z" data-provider="getData" finished-at="2016-05-09T19:00:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[b]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[B]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login04 -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-05-09T19:00:53Z" finished-at="2016-05-09T19:00:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="setUp" is-config="true" duration-ms="0" started-at="2016-05-09T19:00:53Z" finished-at="2016-05-09T19:00:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="login04(java.lang.String, java.lang.String)[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="login04" duration-ms="1" started-at="2016-05-09T19:00:53Z" data-provider="getData" finished-at="2016-05-09T19:00:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[c]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[C]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login04 -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-05-09T19:00:53Z" finished-at="2016-05-09T19:00:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="login04(java.lang.String, java.lang.String)[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="login04" duration-ms="1" started-at="2016-05-09T19:00:53Z" data-provider="getData" finished-at="2016-05-09T19:00:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[d]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[D]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login04 -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="setUp" is-config="true" duration-ms="0" started-at="2016-05-09T19:00:53Z" finished-at="2016-05-09T19:00:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-05-09T19:00:53Z" finished-at="2016-05-09T19:00:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="setUp" is-config="true" duration-ms="0" started-at="2016-05-09T19:00:53Z" finished-at="2016-05-09T19:00:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="login04(java.lang.String, java.lang.String)[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="login04" duration-ms="0" started-at="2016-05-09T19:00:53Z" data-provider="getData" finished-at="2016-05-09T19:00:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[e]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[E]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login04 -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-05-09T19:00:53Z" finished-at="2016-05-09T19:00:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="setUp" is-config="true" duration-ms="0" started-at="2016-05-09T19:00:53Z" finished-at="2016-05-09T19:00:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="login04(java.lang.String, java.lang.String)[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="login04" duration-ms="0" started-at="2016-05-09T19:00:53Z" data-provider="getData" finished-at="2016-05-09T19:00:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[f]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[F]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login04 -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-05-09T19:00:53Z" finished-at="2016-05-09T19:00:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="setUp" is-config="true" duration-ms="0" started-at="2016-05-09T19:00:53Z" finished-at="2016-05-09T19:00:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="login04(java.lang.String, java.lang.String)[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="login04" duration-ms="1" started-at="2016-05-09T19:00:53Z" data-provider="getData" finished-at="2016-05-09T19:00:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[g]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[G]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login04 -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.sfgov.tests.LoginTests@4de8b406]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-05-09T19:00:53Z" finished-at="2016-05-09T19:00:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.sfgov.tests.LoginTests -->
+      </class> <!-- com.sfgov.tests.SFgovTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
