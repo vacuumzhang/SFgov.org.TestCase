@@ -33,7 +33,7 @@ public class Common {
 	private Logger logger = Logger.getLogger(Common.class);
 	private WebDriver driver;
 	public String chromePath = "/Users/Simon/Documents/Selenium/Workspace/SFgov.org.TestCase/drivers/chromedriver";
-	public String excelPath = "F:\\Selenium\\Workspace\\CatalogPageObject\\TestData\\test.xlsx";
+	public String excelPath = "./TestData/test.xlsx";
 	public XSSFWorkbook excelWorkbook;
 	public XSSFSheet excelSheet;
 	public XSSFRow row;
