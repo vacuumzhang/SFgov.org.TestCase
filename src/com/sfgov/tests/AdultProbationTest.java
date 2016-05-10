@@ -22,16 +22,16 @@ public class AdultProbationTest {
 	private String sURL = "http://sfgov.org/adultprobation/";
 	
 	@BeforeSuite
-	public void setUp() throws MalformedURLException{
+	public void setUp() throws IOException{
 		cm = new Common(driver);
-		driver = cm.openBrower("FireFox");
-		cm.openUrl(sURL);
+		driver = cm.openBrowser();
+		cm.openUrl();
 	}
 	
 	@AfterSuite
 	public void tearDown(){
 		
-		cm.closeBrower();
+		cm.closeBrowser();
 	}
 
 	@Test
