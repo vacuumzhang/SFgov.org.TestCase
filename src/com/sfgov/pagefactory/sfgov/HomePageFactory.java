@@ -19,11 +19,11 @@ public class HomePageFactory {
 	private Logger logger = Logger.getLogger(HomePageFactory.class);
 	
 	private WebDriver driver;
-	private Common cm;
+	private Common CM;
 
 	public HomePageFactory(WebDriver driver){
 		this.driver = driver;
-		cm = new Common(driver);
+		CM = new Common(driver);
 		this.driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		PageFactory.initElements(this.driver, this);
 		Assert.assertEquals(driver.getTitle().trim(), "SFGOV");

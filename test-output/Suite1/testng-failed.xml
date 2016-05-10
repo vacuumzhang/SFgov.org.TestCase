@@ -5,8 +5,8 @@
     <classes>
       <class name="com.sfgov.tests.SFgovTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="residentsPageTest"/>
+          <include name="HomePageTest"/>
+          <include name="brokenLinkTest1"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.sfgov.tests.SFgovTest -->

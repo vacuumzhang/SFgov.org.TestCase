@@ -1,13 +1,21 @@
 package com.sfgov.common;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
@@ -21,10 +29,15 @@ import org.openqa.selenium.safari.SafariDriver;
 import org.testng.Assert;
 
 public class Common {
-	
+
 	private Logger logger = Logger.getLogger(Common.class);
 	private WebDriver driver;
 	public String chromePath = "/Users/Simon/Documents/Selenium/Workspace/SFgov.org.TestCase/drivers/chromedriver";
+	public String excelPath = "F:\\Selenium\\Workspace\\CatalogPageObject\\TestData\\test.xlsx";
+	public XSSFWorkbook excelWorkbook;
+	public XSSFSheet excelSheet;
+	public XSSFRow row;
+	public XSSFCell cell;
 
 	public Common(WebDriver driver) {
 		this.driver = driver;
@@ -34,7 +47,13 @@ public class Common {
 		this.driver = driver;
 	}
 
-	public WebDriver openBrower(String browerType) throws MalformedURLException {
+
+	public WebDriver openBrowser() throws IOException {
+		
+		ReadProperties rd = new ReadProperties();
+		String browerType = rd.propertiesReader("config.properties", "browser");
+		System.out.println(browerType);
+		
 		if (browerType.equals("Firefox")) {
 			driver = new FirefoxDriver();
 		} else if (browerType.equals("Chrome")) {
@@ -48,18 +67,25 @@ public class Common {
 		}
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		logger.info("open Brower");
+		logger.info("open Browser");
 		return driver;
 	}
 
-	public void closeBrower() {
+	public void closeBrowser() {
 		driver.close();
-		logger.info("close Brower");
+		logger.info("close Browser");
 	}
 
-	public void openUrl(String url) {
-		driver.get(url);
-		logger.info("openUrl: " + url);
+	public void openUrl() {
+		ReadProperties rd = new ReadProperties();
+		try {
+			String url = rd.propertiesReader("./config.properties", "url");
+			driver.get(url);
+			logger.info("openUrl: " + url);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	public void browerBack() {
@@ -126,5 +152,32 @@ public class Common {
 		huc.connect();
 		return huc.getResponseCode();
 	}
-	
+
+	// get data from
+	public Object[][] setCellData() {
+
+		FileInputStream fis;
+		try {
+			fis = new FileInputStream(excelPath);
+			excelWorkbook = new XSSFWorkbook(fis);
+			excelSheet = excelWorkbook.getSheet("sheet1");
+			int rowCount = excelSheet.getLastRowNum() - excelSheet.getFirstRowNum();
+			int colCount = excelSheet.getRow(0).getLastCellNum();
+
+			Object[][] data = new Object[rowCount + 1][colCount];
+			for (int rowNum = 0; rowNum <= rowCount; rowNum++) {
+				for (int colNum = 0; colNum < colCount; colNum++) {
+					data[rowNum][colNum] = excelSheet.getRow(rowNum).getCell(colNum).getStringCellValue();
+				}
+			}
+
+			return data;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return null;
+
+		}
+
+	}
 }
