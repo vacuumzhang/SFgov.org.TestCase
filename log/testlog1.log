@@ -8099,3 +8099,52 @@ Transportation Services clicked
 2016-05-09 19:53:19,263 [main] INFO com.sfgov.common.Common - log yourself in clicked
 2016-05-09 19:53:20,088 [main] INFO com.sfgov.common.Common - expected text verified:  Error: No match for E-Mail Address and/or Password.
 2016-05-09 19:53:20,102 [main] INFO com.sfgov.common.Common - close Browser
+2016-05-09 23:09:50,280 [main] INFO com.sfgov.common.Common - open Browser
+2016-05-09 23:09:50,842 [main] INFO com.sfgov.common.Common - openUrl: http://107.170.213.234/catalog/
+2016-05-09 23:09:51,111 [main] INFO com.sfgov.common.Common - trying to click log yourself in
+2016-05-09 23:09:51,529 [main] INFO com.sfgov.common.Common - log yourself in clicked
+2016-05-09 23:09:52,403 [main] INFO com.sfgov.common.Common - trying to click Log Off
+2016-05-09 23:09:52,797 [main] INFO com.sfgov.common.Common - Log Off clicked
+2016-05-09 23:09:52,833 [main] INFO com.sfgov.common.Common - close Browser
+2016-05-09 23:09:55,757 [main] INFO com.sfgov.common.Common - open Browser
+2016-05-09 23:09:56,307 [main] INFO com.sfgov.common.Common - openUrl: http://107.170.213.234/catalog/
+2016-05-09 23:09:56,435 [main] INFO com.sfgov.common.Common - trying to click log yourself in
+2016-05-09 23:09:56,812 [main] INFO com.sfgov.common.Common - log yourself in clicked
+2016-05-09 23:09:57,389 [main] INFO com.sfgov.common.Common - expected text verified:  Error: No match for E-Mail Address and/or Password.
+2016-05-09 23:09:57,403 [main] INFO com.sfgov.common.Common - close Browser
+2016-05-09 23:09:59,772 [main] INFO com.sfgov.common.Common - open Browser
+2016-05-09 23:10:00,329 [main] INFO com.sfgov.common.Common - openUrl: http://107.170.213.234/catalog/
+2016-05-09 23:10:00,454 [main] INFO com.sfgov.common.Common - trying to click log yourself in
+2016-05-09 23:10:00,864 [main] INFO com.sfgov.common.Common - log yourself in clicked
+2016-05-09 23:10:01,361 [main] INFO com.sfgov.common.Common - expected text verified:  Error: No match for E-Mail Address and/or Password.
+2016-05-09 23:10:01,375 [main] INFO com.sfgov.common.Common - close Browser
+2016-05-09 23:10:03,694 [main] INFO com.sfgov.common.Common - open Browser
+2016-05-09 23:10:04,268 [main] INFO com.sfgov.common.Common - openUrl: http://107.170.213.234/catalog/
+2016-05-09 23:10:04,358 [main] INFO com.sfgov.common.Common - trying to click log yourself in
+2016-05-09 23:10:04,744 [main] INFO com.sfgov.common.Common - log yourself in clicked
+2016-05-09 23:10:05,290 [main] INFO com.sfgov.common.Common - expected text verified:  Error: No match for E-Mail Address and/or Password.
+2016-05-09 23:10:05,303 [main] INFO com.sfgov.common.Common - close Browser
+2016-05-09 23:10:07,746 [main] INFO com.sfgov.common.Common - open Browser
+2016-05-09 23:10:08,253 [main] INFO com.sfgov.common.Common - openUrl: http://107.170.213.234/catalog/
+2016-05-09 23:10:08,374 [main] INFO com.sfgov.common.Common - trying to click log yourself in
+2016-05-09 23:10:08,780 [main] INFO com.sfgov.common.Common - log yourself in clicked
+2016-05-09 23:10:09,286 [main] INFO com.sfgov.common.Common - expected text verified:  Error: No match for E-Mail Address and/or Password.
+2016-05-09 23:10:09,299 [main] INFO com.sfgov.common.Common - close Browser
+2016-05-09 23:10:11,624 [main] INFO com.sfgov.common.Common - open Browser
+2016-05-09 23:10:12,674 [main] INFO com.sfgov.common.Common - openUrl: http://107.170.213.234/catalog/
+2016-05-09 23:10:12,811 [main] INFO com.sfgov.common.Common - trying to click log yourself in
+2016-05-09 23:10:13,158 [main] INFO com.sfgov.common.Common - log yourself in clicked
+2016-05-09 23:10:13,689 [main] INFO com.sfgov.common.Common - expected text verified:  Error: No match for E-Mail Address and/or Password.
+2016-05-09 23:10:13,701 [main] INFO com.sfgov.common.Common - close Browser
+2016-05-09 23:10:15,966 [main] INFO com.sfgov.common.Common - open Browser
+2016-05-09 23:10:16,985 [main] INFO com.sfgov.common.Common - openUrl: http://107.170.213.234/catalog/
+2016-05-09 23:10:17,176 [main] INFO com.sfgov.common.Common - trying to click log yourself in
+2016-05-09 23:10:17,597 [main] INFO com.sfgov.common.Common - log yourself in clicked
+2016-05-09 23:10:18,112 [main] INFO com.sfgov.common.Common - expected text verified:  Error: No match for E-Mail Address and/or Password.
+2016-05-09 23:10:18,124 [main] INFO com.sfgov.common.Common - close Browser
+2016-05-09 23:10:20,461 [main] INFO com.sfgov.common.Common - open Browser
+2016-05-09 23:10:20,915 [main] INFO com.sfgov.common.Common - openUrl: http://107.170.213.234/catalog/
+2016-05-09 23:10:21,101 [main] INFO com.sfgov.common.Common - trying to click log yourself in
+2016-05-09 23:10:21,425 [main] INFO com.sfgov.common.Common - log yourself in clicked
+2016-05-09 23:10:22,003 [main] INFO com.sfgov.common.Common - expected text verified:  Error: No match for E-Mail Address and/or Password.
+2016-05-09 23:10:22,015 [main] INFO com.sfgov.common.Common - close Browser

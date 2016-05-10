@@ -3,8 +3,5 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SeleniumWebDriver"/>
-	<classpathentry kind="lib" path="F:/Selenium/Workspace/SFgov.org.TestCase/libs/reportng-1.1.4.jar"/>
-	<classpathentry kind="lib" path="F:/Selenium/Workspace/SFgov.org.TestCase/libs/velocity-dep-1.4.jar"/>
-	<classpathentry kind="lib" path="F:/Selenium/Workspace/SFgov.org.TestCase/libs/guice-3.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -14,8 +14,6 @@ import com.sfgov.common.Common;
 
 public class ResidentsPageFactory {
 
-	private Logger logger = Logger.getLogger(ResidentsPageFactory.class);
-	
 	private WebDriver driver;
 	private Common cm;
 	

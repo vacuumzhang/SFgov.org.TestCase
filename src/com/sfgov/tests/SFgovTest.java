@@ -18,8 +18,6 @@ public class SFgovTest {
 	
 	public Common CM;
 	private WebDriver driver;
-
-	private String sURL = "http://www.sfgov.org/";
 	
 	@BeforeSuite
 	public void setUp() throws IOException{
@@ -38,7 +36,6 @@ public class SFgovTest {
 	public void HomePageTest() {
 		HomePageFactory hp = new HomePageFactory(driver);
 		int size = hp.menu().size();
-		int count = 0;
 		for (int i = 1; i < size; i++){
 			WebElement navElement = hp.menu().get(i);
 			CM.clickElement(navElement);

@@ -18,8 +18,6 @@ public class AdultProbationTest {
 	
 	public Common cm;
 	private WebDriver driver;
-
-	private String sURL = "http://sfgov.org/adultprobation/";
 	
 	@BeforeSuite
 	public void setUp() throws IOException{

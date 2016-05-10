@@ -1,14 +1,11 @@
 package com.sfgov.common;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
-import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
@@ -32,7 +29,7 @@ public class Common {
 
 	private Logger logger = Logger.getLogger(Common.class);
 	private WebDriver driver;
-	public String chromePath = "/Users/Simon/Documents/Selenium/Workspace/SFgov.org.TestCase/drivers/chromedriver";
+	public String chromePath = "./drivers/chromedriver";
 	public String excelPath = "./TestData/test.xlsx";
 	public XSSFWorkbook excelWorkbook;
 	public XSSFSheet excelSheet;
@@ -52,8 +49,7 @@ public class Common {
 		
 		ReadProperties rd = new ReadProperties();
 		String browerType = rd.propertiesReader("config.properties", "browser");
-		System.out.println(browerType);
-		
+		logger.info("Brower Type: " + browerType);
 		if (browerType.equals("Firefox")) {
 			driver = new FirefoxDriver();
 		} else if (browerType.equals("Chrome")) {

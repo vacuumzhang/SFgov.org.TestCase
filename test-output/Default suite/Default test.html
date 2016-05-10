@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/2</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon May 09 19:18:39 PDT 2016</td>
+<td>Started on:</td><td>Mon May 09 23:09:46 PDT 2016</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (10 ms)</td>
+<tr><td>Total time:</td><td>35 seconds (35403 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,91 +67,53 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.sfgov.tests.SFgovTest.setUp()'><b>setUp</b><br>Test class: com.sfgov.tests.SFgovTest</td>
-<td><div><pre>java.lang.NoClassDefFoundError: org/openqa/selenium/WebDriver
-	at com.sfgov.tests.SFgovTest.setUp(SFgovTest.java:26)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.WebDriver
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	... 20 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace1157740463", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1157740463'><pre>java.lang.NoClassDefFoundError: org/openqa/selenium/WebDriver
-	at com.sfgov.tests.SFgovTest.setUp(SFgovTest.java:26)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.WebDriver
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	... 20 more
-</pre></div></td>
-<td>0</td>
-<td>null</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.sfgov.tests.SFgovTest.HomePageTest()'><b>HomePageTest</b><br>Test class: com.sfgov.tests.SFgovTest</td>
+<td title='com.sfgov.tests.LoginTests.login01()'><b>login01</b><br>Test class: com.sfgov.tests.LoginTests<br>Test method: right password and username</td>
 <td></td>
-<td>0</td>
-<td>com.sfgov.tests.SFgovTest@32e6e9c3</td></tr>
+<td>1</td>
+<td>com.sfgov.tests.LoginTests@61a52fbd</td></tr>
 <tr>
-<td title='com.sfgov.tests.SFgovTest.brokenLinkTest1()'><b>brokenLinkTest1</b><br>Test class: com.sfgov.tests.SFgovTest</td>
+<td title='com.sfgov.tests.LoginTests.login04()'><b>login04</b><br>Test class: com.sfgov.tests.LoginTests<br>Parameters: a, A</td>
 <td></td>
-<td>0</td>
-<td>com.sfgov.tests.SFgovTest@32e6e9c3</td></tr>
+<td>1</td>
+<td>com.sfgov.tests.LoginTests@61a52fbd</td></tr>
+<tr>
+<td title='com.sfgov.tests.LoginTests.login04()'><b>login04</b><br>Test class: com.sfgov.tests.LoginTests<br>Parameters: b, B</td>
+<td></td>
+<td>1</td>
+<td>com.sfgov.tests.LoginTests@61a52fbd</td></tr>
+<tr>
+<td title='com.sfgov.tests.LoginTests.login04()'><b>login04</b><br>Test class: com.sfgov.tests.LoginTests<br>Parameters: c, C</td>
+<td></td>
+<td>1</td>
+<td>com.sfgov.tests.LoginTests@61a52fbd</td></tr>
+<tr>
+<td title='com.sfgov.tests.LoginTests.login04()'><b>login04</b><br>Test class: com.sfgov.tests.LoginTests<br>Parameters: d, D</td>
+<td></td>
+<td>1</td>
+<td>com.sfgov.tests.LoginTests@61a52fbd</td></tr>
+<tr>
+<td title='com.sfgov.tests.LoginTests.login04()'><b>login04</b><br>Test class: com.sfgov.tests.LoginTests<br>Parameters: e, E</td>
+<td></td>
+<td>1</td>
+<td>com.sfgov.tests.LoginTests@61a52fbd</td></tr>
+<tr>
+<td title='com.sfgov.tests.LoginTests.login04()'><b>login04</b><br>Test class: com.sfgov.tests.LoginTests<br>Parameters: f, F</td>
+<td></td>
+<td>1</td>
+<td>com.sfgov.tests.LoginTests@61a52fbd</td></tr>
+<tr>
+<td title='com.sfgov.tests.LoginTests.login04()'><b>login04</b><br>Test class: com.sfgov.tests.LoginTests<br>Parameters: g, G</td>
+<td></td>
+<td>1</td>
+<td>com.sfgov.tests.LoginTests@61a52fbd</td></tr>
 </table><p>
 </body>
 </html>

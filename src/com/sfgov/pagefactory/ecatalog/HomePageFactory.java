@@ -1,6 +1,5 @@
 package com.sfgov.pagefactory.ecatalog;
 
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
